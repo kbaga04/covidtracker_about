@@ -3,5 +3,13 @@ body{
 }
 
 h1{
-    color: darkblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
