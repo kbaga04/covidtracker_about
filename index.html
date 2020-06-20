@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e728323043.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="body">
-        <nav>
+        <!-- <nav>
             <input id="nav-toggle" type="checkbox"></input>
             <div class="header">
                 COVID<strong>Tracker</strong>
@@ -25,6 +26,19 @@
                 <div class="line"></div>
                 <div class="line"></div>
             </label>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">COVID<strong>Tracker</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Features</a>
+              <a class="nav-item nav-link " href="#">Pricing</a>
+            </div>
+          </div>
         </nav>
         <div class="container">
             <h2>About Page for CovidTracker</h2>
@@ -32,12 +46,126 @@
         </div>
     </div>
 
-    <div class="Intro col-lg-6">
-        <h3>What is CoViD-19?</h3>
-        <p>COVID-19, also called the Novel Coronavirus, is the disease caused by the Coronavirus. First identified in Wuhan, China, COVID 19 has spread around the world and has infected almost all countries. It is highly contagious and poses a greater threat for people over 65 or people who have underlying chronic diseases 
-        </p>
-        <button class="btn btn-warning">More Info from CDC</button>
-    </div>
+    <!-- <div class="col-lg-12 total">
+        <div class="Intro col-lg-6 col-md-9 col-sm-12">
+            <h3>What is CoViD-19?</h3>
+            <p>COVID-19, also called the Novel Coronavirus, is the disease caused by the Coronavirus. First identified in Wuhan, China, COVID 19 has spread around the world and has infected almost all countries. It is highly contagious and poses a greater threat for people over 65 or people who have underlying chronic diseases 
+            </p>
+            <button class="btn btn-warning">More Info from CDC</button>
+        </div>
+        <img src="coronavirus.png" alt="COVID Picture" class="col-lg-6 col-md-3 col-sm-0" width="20px" height="400px">
+    </div> -->
+
+    <hr>
+
+    <div class="features">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <div class="iconMain icon">
+                <i class="fas fa-viruses"></i>
+                </div>
+              <h4 class="info-title">COVID-19</h4>
+              <p>COVID-19 is the disease caused by the novel coronavirus. The first documented case of COVID-19 was found in Wuhan, China. However, the virus has spread around the world and has severely overwhelmed the healthcare systems in the countries that have been infected.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="iconSecond icon">
+                <i class="fas fa-people-arrows"></i>
+              </div>
+              <h4 class="info-title">Social Distancing</h4>
+              <p>Social Distancing, also called Physical Distancing, is the method of keeping distance between yourself and other people. It is recommended that there should be a 6ft(2m) distance between people in public</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="iconThird icon">
+                <i class="fas fa-globe-europe"></i>
+              </div>
+              <h4 class="info-title">Worldwide</h4>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+            </div>
+          </div>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html" type="button" class="btn btn-warning btn-lg">More Info on CDC</a>
+        </div>
+      </div>
+
+      <hr>
+
+      <h3>FAQ [Based on CDC]</h3>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            How does the virus spread
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What is community spread?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected. Each health department determines community spread differently based on local conditions. This is the point when the spread of the virus becomes difficult to track.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What are the symptoms and complications of COVID-19
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              <ul style="padding-left: 1rem;">
+                <li>Fever or Chills</li>
+                <li>Cough</li>
+                <li>Shortness of Breath of difficulty breathing</li>
+                <li>Fatigue</li>
+                <li>Muscle or Body aches</li>
+                <li>Headache</li>
+                <li>New loss of taster and smell</li>
+                <li>Sore throat</li>
+                <li>Congestion or runny nose</li>
+                <li>Diarrhra</li>
+                <li>Nausea or Vommiting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What is Community Mitigation?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Community mitigation activities are actions that people and communities can take to slow the spread of infectious diseases, including COVID-19. Community mitigation is especially important before a vaccine or drug becomes widely available.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            Is cleaning alone effective against the virus that causes COVID-19?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Cleaning does not kill germs, but by removing them, it lowers their numbers and the risk of spreading infection. If a surface may have gotten the virus on it from a person with or suspected to have COVID-19, the surface should be cleaned and disinfected. Disinfecting kills germs on surfaces.            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            What does it mean to flatten the curve?
+          </div>
+          <div class="accordion-item-body">
+            <div class="accordion-item-body-content">
+              Flattening the curve refers to community isolation measures that keep the daily number of disease cases at a manageable level for medical providers. It is important that people do their best to flatten the curve so that the deaths resulting from COVID-19 remains low          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

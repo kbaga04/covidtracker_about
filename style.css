@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body{
     background-color: lightgray;
 }
@@ -21,7 +23,7 @@ h4{
     margin: 0;
 }
 
-nav{
+.nav{
     position: fixed;
     z-index: 10;
     left: 0;
@@ -51,6 +53,15 @@ nav .header{
     height: 100px;
     justify-content: center;
     text-align: center;
+}
+
+.navbar{
+    background-color: dimgray;
+}
+
+.ml-auto{
+    margin-right: 5%;
+    margin-top: 1%;
 }
 
 nav .links{
@@ -170,7 +181,122 @@ nav .iconB .line{
     }
 }
 
-.Intro{
+.total{
     border-top: solid;
     border-bottom: solid;
+    margin: 20px 0 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d6e9f2;
 }
+
+.info{
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 70px 0 30px;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 300;
+        line-height: 1.5em;
+}
+
+.icon{
+    justify-content: center;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.iconMain{
+    color: #f44336;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+  
+  .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+  
+  @media(max-width:767px) {
+    html {
+      font-size: 14px;
+    }
+    .btn-warning{
+        margin: 0 0 0 0;
+    }
+  }
+
+  h3{
+      text-align: center;
+  }
+
+  .btn-warning{
+      margin: auto;
+  }
+
+  .iconSecond{
+      color: darkblue;
+  }
+
+  .iconThird{
+      color: #0AD48B;
+  }
+
+  .info{
+      text-align: center;
+  }
+
+   @media(min-width: 768px){
+       .btn-warning{
+           margin: 0 0 0 44%;
+       }
+   }
