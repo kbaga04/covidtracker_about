@@ -47,7 +47,7 @@ nav .header{
 
 .container{
     position: relative;
-    margin-top: 100px;
+    margin-top: 40px;
     display: block;
     width: 100%;
     height: 100px;
@@ -273,6 +273,9 @@ h1 {
     .btn-warning{
         margin: 0 0 0 0;
     }
+   .imageRest{
+        display: none;
+    }
   }
 
   h3{
@@ -299,4 +302,20 @@ h1 {
        .btn-warning{
            margin: 0 0 0 44%;
        }
+   }
+
+  .imageRest{
+       width: 12%;
+       border-radius: 25%;
+   }
+
+   .media{
+       margin-top: 3%;
+   }
+
+   .end{
+       margin-top: 5%;
+       text-align: center;
+       word-spacing: 1;
+       line-height: 1px;
    }
