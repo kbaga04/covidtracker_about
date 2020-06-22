@@ -223,6 +223,9 @@ nav .iconB .line{
     .btn-info{
         margin: 0 0 0 44%;
     }
+    .media{
+        margin-bottom: 5%;
+    }
 }
 
 .btn-info{
@@ -244,4 +247,15 @@ h3{
 
 .media.line:nth-child(1){
     margin-top: 4%;
+}
+
+.title{
+    margin-bottom: 3%;
+}
+
+.end{
+    margin-top: 5%;
+    text-align: center;
+    word-spacing: 1;
+    line-height: 1px;
 }
